@@ -1,0 +1,117 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Django
+# =========================
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# =========================
+# Media files
+# =========================
+media/
+
+# =========================
+# Collected static files
+# =========================
+staticfiles/
+
+# =========================
+# Migrations
+# =========================
+# DO NOT ignore migrations.
+# Migrations should be committed to Git.
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# =========================
+# Django / Python tooling
+# =========================
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Local Development
+# =========================
+*.local
+
+# =========================
+# Database / Debug
+# =========================
+*.sqlite3
+*.sqlite3-journal
+
+# =========================
+# Celery
+# =========================
+celerybeat-schedule
+
+# =========================
+# Local uploaded files
+# =========================
+uploads/
