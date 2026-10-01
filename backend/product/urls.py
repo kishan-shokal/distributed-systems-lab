@@ -12,11 +12,7 @@ from .views import (
 
 router = DefaultRouter()
 
-router.register(
-    r"",
-    ProductViewSet,
-    basename="product",
-)
+
 
 router.register(
     r"brands",
@@ -46,6 +42,11 @@ router.register(
     r"reviews",
     ProductReviewViewSet,
     basename="review",
+)
+router.register(
+    r"",
+    ProductViewSet,
+    basename="product",
 )
 
 
